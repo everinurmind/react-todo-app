@@ -9,7 +9,7 @@ const Profile = () => {
     textAlign: 'center',
     textTransform: 'lowercase',
   };
-  return <div style={profileTitle}>Profile page</div>
+  return <div style={profileTitle}>Profile page</div>;
 };
 
 export default Profile;

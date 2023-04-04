@@ -18,7 +18,6 @@ const aboutData = [
   },
 ];
 
-
 const SinglePage = () => {
   const { slug } = useParams();
   const aboutContent = aboutData.find((item) => item.slug === slug);

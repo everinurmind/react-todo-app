@@ -9,7 +9,7 @@ const Login = () => {
     textAlign: 'center',
     textTransform: 'lowercase',
   };
-  return <div style={loginTitle}>Login page</div>
+  return <div style={loginTitle}>Login page</div>;
 };
 
 export default Login;

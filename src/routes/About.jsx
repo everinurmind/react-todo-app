@@ -16,7 +16,7 @@ const About = () => {
     marginLeft: '20px',
     listStyle: 'none',
   };
-  
+
   return (
     <>
       <h1 style={aboutTitle}>About page</h1>
@@ -32,7 +32,7 @@ const About = () => {
         <Outlet />
       </div>
     </>
-  )
+  );
 };
 
 export default About;

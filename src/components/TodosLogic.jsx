@@ -1,24 +1,23 @@
-import { useState, useEffect } from "react";
-import { v4 as uuidv4 } from "uuid";
-import InputTodo from "@/components/InputTodo";
-import TodosList from "@/components/TodosList";
+import { useState, useEffect } from 'react';
+import { v4 as uuidv4 } from 'uuid';
+// eslint-disable-next-line import/extensions
+import InputTodo from '@/components/InputTodo';
+// eslint-disable-next-line import/extensions
+import TodosList from '@/components/TodosList';
 
 const TodosLogic = () => {
   const [todos, setTodos] = useState(() => {
-    const savedTodos = JSON.parse(localStorage.getItem("todos"));
+    const savedTodos = JSON.parse(localStorage.getItem('todos'));
     return savedTodos || [];
   });
 
   useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
+    localStorage.setItem('todos', JSON.stringify(todos));
   }, [todos]);
 
   const handleChange = (id) => {
-    setTodos((prevState) =>
-      prevState.map((todo) =>
-        todo.id === id ? { ...todo, completed: !todo.completed } : todo
-      )
-    );
+    // eslint-disable-next-line max-len
+    setTodos((prevState) => prevState.map((todo) => (todo.id === id ? { ...todo, completed: !todo.completed } : todo)));
   };
 
   const addTodoItem = (title) => {
@@ -30,11 +29,8 @@ const TodosLogic = () => {
   };
 
   const setUpdates = (updatedTitle, id) => {
-    setTodos((prevState) =>
-      prevState.map((todo) =>
-        todo.id === id ? { ...todo, title: updatedTitle } : todo
-      )
-    );
+    // eslint-disable-next-line max-len
+    setTodos((prevState) => prevState.map((todo) => (todo.id === id ? { ...todo, title: updatedTitle } : todo)));
   };
 
   return (
