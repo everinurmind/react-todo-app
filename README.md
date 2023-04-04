@@ -16,11 +16,11 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 React Todos <a name="about-project"></a>
+# 📖 React+Vite Todos <a name="about-project"></a>
 
 Hello! Here you will see the React Todos application. 
 
-## 🛠 Built With HTML, CSS and JS <a name="built-with"></a>
+## 🛠 Built With React + Vite <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
