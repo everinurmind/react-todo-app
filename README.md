@@ -18,7 +18,7 @@
 
 # 📖 React Todos <a name="about-project"></a>
 
-Hello! Here you will see my first project of the React Todos application.
+Hello! Here you will see the React Todos application. 
 
 ## 🛠 Built With HTML, CSS and JS <a name="built-with"></a>
 
@@ -102,7 +102,7 @@ Please leave me review if you have any questions or remarks.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to Microverse team, for all help and support on this project.
+Thanks to Microverse team and Thanks to [Ibas Majeed](https://github.com/ibaslogic) for making step-by-step [tutorial](https://ibaslogic.com/react-tutorial-for-beginners/) for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
